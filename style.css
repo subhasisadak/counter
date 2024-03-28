@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.counter{
+    background-color: rgb(153, 104, 199);
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.number{
+    /* display: inline-block; */
+    font-size: 60px;
+    color: rgb(32, 5, 5);
+}
+
+.button{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.increment{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(70, 224, 70);
+    border-radius: 20px;
+}
+
+.decrement{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(70, 224, 70);
+    border-radius: 20px;
+}
